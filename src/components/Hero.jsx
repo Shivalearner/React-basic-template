@@ -1,5 +1,5 @@
 import React from "react";
-import Section1 from "../assets/Section1.png"
+import Section1 from "../assets/Section1.png";
 const Hero = () => {
   return (
     <section className="bg-gray-300 text-center py-16 ">

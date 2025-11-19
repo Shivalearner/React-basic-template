@@ -31,14 +31,14 @@ const navLink = [
 ];
 function Navbar() {
   return (
-    <nav className="w-full bg-[#0A1A2F] border-b-2 border-cyan-400 text-white p-4">
+    <nav className="w-full bg-white border-b-2 border-cyan-600 text-black p-4">
       <div className=" max-w-7xl flex justify-between items-center mx-auto  ">
-        <h1 className="text-2xl font-bold">MyWebsite✅</h1>
+        <h1 className="text-2xl font-bold">MyWebsite</h1>
         <ul className="flex gap-6 ">
           {navLink.map((link,index) => (
             <li key={index}>
               <a
-                className="flex items-center gap-1.5 hover:text-blue-400 font-medium"
+                className="flex items-center gap-1.5 hover:text-blue-600 font-semibold"
                 href={link.href}
               >
                 {link.icon}
